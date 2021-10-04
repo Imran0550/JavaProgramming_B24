@@ -1,0 +1,36 @@
+package day24_loops;
+
+public class ForLoopExample {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 10; i++){
+            System.out.println(i);
+
+            /*
+            Flow fot the loop:
+             - it executes the inialization part to declare the variable:
+                    int i = 1;
+                    -> once in the beginning of the loop
+
+                 - checks the boolean / termination condition part
+                 i <=10;
+
+                 if the boolean is true: the loop will run
+                 if the boolean is false: the loop stops
+
+               - next the loop body, statement inside of the loop
+
+                 System.our.println(i);
+
+               - next the update part is run
+                i++
+
+               - repeat the steps by checking the boolean/ termination condition part
+             */
+        }
+
+
+
+
+    }
+}
