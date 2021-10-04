@@ -3,7 +3,7 @@ package day25_loops;
 public class RemoveDuplicate {
     public static void main(String[] args) {
 
-        String s = "abcdabcabc";
+        String s = "AAAABBBBBDEF";
         String uniqueChars = " ";
 
         for(int i =0; i < s.length(); i++){

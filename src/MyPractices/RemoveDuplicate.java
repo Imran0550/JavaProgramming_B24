@@ -8,15 +8,15 @@ public class RemoveDuplicate {
     public static String s (String s){
 String result ="";
 
-        for(int i=0; i < s.length()-1; i++){
+        for(int i=0; i<s.length()-1;i++){
 
-            String Curchar = s.substring(i, i+1);
+            String carChar = s.substring(i,i+1);
 
-            if(!result.contains(Curchar)){
-                result += Curchar;
+            if(!result.contains(carChar)){
+                result+=carChar;
             }
         }
-       return result;
+        return result;
     }
 
     public static void main(String[] args) {
