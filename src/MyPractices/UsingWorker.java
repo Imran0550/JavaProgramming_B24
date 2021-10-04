@@ -1,4 +1,6 @@
-package day45_constructors;
+package MyPractices;
+
+import MyPractices.Worker;
 
 public class UsingWorker {
 

@@ -1,4 +1,4 @@
-package day45_constructors;
+package MyPractices;
 
 public class Worker {
 
