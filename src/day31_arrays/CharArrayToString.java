@@ -14,6 +14,14 @@ public class CharArrayToString {
         System.out.println(arr);
 
 
+        // my own practice
+
+        char [] arr2 = {'a','c','d','f'};
+
+        String str1 = new String(arr2);
+        System.out.println(str1);
+
+
 
     }
 }
