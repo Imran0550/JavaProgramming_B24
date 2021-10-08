@@ -22,5 +22,9 @@ String result ="";
     public static void main(String[] args) {
         String s = "AAABBTXCC";
         System.out.println(s(s));
+
+
     }
+
+
 }
