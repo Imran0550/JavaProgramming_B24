@@ -18,5 +18,15 @@ public class Cydeo {
         System.out.println("batch: " + CydeoStudent.batchNumber);
         System.out.println();
         System.out.println(cydeoStudent.name + " and "+ student.name + " have the following instructors: " + Arrays.toString(CydeoStudent.instructors));
+
+        // check how much coffee all cydeo students have
+
+        System.out.println(CydeoStudent.myCoffee.amountLeft);
+
+        cydeoStudent.myCoffee.drink(2);
+        System.out.println(CydeoStudent.myCoffee.amountLeft);
+
+        student.myCoffee.drink(5);
+        System.out.println(CydeoStudent.myCoffee.amountLeft);
     }
 }
