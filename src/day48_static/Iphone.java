@@ -23,8 +23,19 @@ public class Iphone {
         this.price = price;
     }
 
+
     static {
         brand = "Apple";
         operatingSystem = "IOS";
+    }
+
+    @Override
+    public String toString() {
+        return "Iphone{" +
+                "model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                ", storage=" + storage +
+                '}';
     }
 }
