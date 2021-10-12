@@ -8,20 +8,19 @@ public class ConcatenateArrays {
 
         int length = a.length + b.length;
 
-        int [] result = new int[length];
+        int [] result = new int[length] ;
 
         int pos =0;
 
-        for(int element : a){
-            result[pos] = element;
+        for(int each : a){
+            result[pos] = each;
             pos++;
         }
-for(int element : b){
-    result[pos] += element;
-
-    pos++;
-}
-    return result;
+        for(int each : b){
+            result[pos] += each;
+            pos++;
+        }
+        return result;
     }
 
     public static void main(String[] args) {
