@@ -27,5 +27,7 @@ public class AddToArray {
         int [] a = {1,2,3,4,5};
         int n =9;
         System.out.println(Arrays.toString(arr(a,n)));
+
+        System.out.println("6 = " + 6);
     }
 }
