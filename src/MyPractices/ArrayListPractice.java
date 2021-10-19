@@ -32,5 +32,6 @@ public class ArrayListPractice {
         System.out.println(nums(nums2));
 
 
+
     }
 }
