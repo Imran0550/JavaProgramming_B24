@@ -17,16 +17,16 @@ public class FunPractice {
 
     public static void main(String[] args) {
 
-        boolean isAlive = true;
 
-        while (isAlive){
+        System.out.println(equal("Nadar","Nadar"));
 
-            wearMask();
-            please6FeetApart();
-            drinkWater();
-            getVaccinated();
 
-        }
+    }
+    public static boolean equal(String str1, String str2){
 
+        if(str1.length() > 3 && str2.length() >3 && str1.charAt(str1.length()-2) == str2.charAt(str2.length()-2)) return true;
+
+
+        return false;
     }
 }
