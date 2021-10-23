@@ -11,6 +11,7 @@ public class ScrumTeam {
         String scrumMaster;
         int sprintNumber;
         ArrayList<Developer> allDeveloper;
+        ArrayList<Tester> allTester;
 
          static String companyName;
          static String ceo;
@@ -19,24 +20,46 @@ public class ScrumTeam {
              this.sprintNumber = sprintNumber;
 
              allDeveloper = new ArrayList<>();
+             allTester = new ArrayList<>();
 
          }
 
-    public ScrumTeam(String productOwner, String scrumMaster, int sprintNumber, ArrayList<Developer> allDeveloper) {
+    public ScrumTeam(String productOwner, String scrumMaster, int sprintNumber) {
          this(sprintNumber);
         this.productOwner = productOwner;
         this.scrumMaster = scrumMaster;
-      this.allDeveloper.addAll(allDeveloper);
+
 
 
     }
     public void addDeveloper(Developer developer){
              allDeveloper.add(developer);
     }
+
     public void addDeveloper(Developer [] developers){
 
              allDeveloper.addAll(Arrays.asList(developers));
 
+    }
+    public void addTester(Tester tester){
+             allTester.add(tester);
+    }
+
+    public void removeTester(int employeeId){
+
+             allTester.removeIf(each -> each.employeeId == employeeId);
+
+    }
+
+    @Override
+    public String toString() {
+        return "ScrumTeam{" +
+                "productOwner='" + productOwner + '\'' +
+                ", scrumMaster='" + scrumMaster + '\'' +
+                ", sprintNumber=" + sprintNumber +
+                ",\n allDeveloper=" + allDeveloper +
+                ",\n allTester=" + allTester +
+                '}';
     }
 }
 /*
