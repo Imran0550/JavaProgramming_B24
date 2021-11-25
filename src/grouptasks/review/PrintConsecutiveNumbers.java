@@ -18,6 +18,8 @@ public class PrintConsecutiveNumbers {
             }else {
                 System.out.println(i);
             }
+
+
         }
 
 

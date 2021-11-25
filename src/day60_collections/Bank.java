@@ -23,9 +23,9 @@ public class Bank {
 
     public void withDraw(double money){
 
-        if(money > balance){
-            throw new IllegalArgumentException();
-        }else if(balance < 0){
+        if( balance <=0){
+            throw new NotEnoughMoneyException();
+        }else if(money > balance){
             throw new IllegalArgumentException();
         }
 
