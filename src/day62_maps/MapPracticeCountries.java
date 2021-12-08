@@ -38,7 +38,7 @@ public class MapPracticeCountries {
         for(String continent : map2.keySet()){ // first loop goes through the keys which are continents
 
             for(String city : map2.get(continent)){ // second loop goes through the cities which are ArrayList value
-                System.out.println(city.charAt(0));
+                System.out.println(city);
             }
 
 

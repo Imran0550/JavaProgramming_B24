@@ -21,7 +21,11 @@ public class Countries {
 
         for(String each : listMap.keySet()){
 
-            System.out.println("The cities in " + each + " are " + listMap.get(each));
+            System.out.println("The cities in " + each + listMap.get(each));
+            // ^ or but only can be true
+            // true ^ false ->true
+            // false ^ true -> true
+            // true ^ true -> false
         }
 
     }

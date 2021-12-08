@@ -6,9 +6,9 @@ public abstract class SocialMedia {
     public int accountLength;
     public static String platform;
 
-    public abstract void directMessage(String username, String message);
+    public abstract void directMessage(SocialMedia other, String message);
     public abstract void post(String body);
-    public abstract  void notification();
+    public abstract  void notification(int time);
 
 }
 /*
