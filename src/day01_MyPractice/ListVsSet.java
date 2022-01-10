@@ -35,5 +35,16 @@ public class ListVsSet {
         Set<Integer> set = new HashSet<>(list);
         System.out.println(set);
 
+
+        int [] arr = new int[4];
+
+        for(int i=1;i<4;i++){
+            arr[i] = i;
+        }
+
+        
+
+        System.out.println(Arrays.toString(arr));
+
     }
 }
